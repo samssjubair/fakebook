@@ -5,6 +5,7 @@ import './App.css';
 import { useEffect, useState } from 'react';
 import Celebrity from './Components/Celebrity/Celebrity';
 
+
 function App() {
   const [addedCelebrities,setAddedCelebrities]= useState([]);
   function handleClick(celebrity){
